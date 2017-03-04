@@ -1,8 +1,7 @@
 Implementation of Image Based Classifier and $1 Recognizer
 Classify the objects and weights in Free Body Diagram Mechanical System
 The classifier will work only if at least one of both objects and numbers is drawn in the GUI. 
-The code is written in such a way that it will work only when both numbers and objects are drawn else
-it will give an error of undefined variables.
+The code is written in such a way that it will work only when both numbers and objects are drawn else it will give an error of undefined variables.
 
 
 The output of the classifiers will provide following information:
