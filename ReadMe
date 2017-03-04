@@ -1,0 +1,24 @@
+Implementation of Image Based Classifier and $1 Recognizer
+Classify the objects and weights in Free Body Diagram Mechanical System
+The classifier will work only if at least one of both objects and numbers is drawn in the GUI. 
+The code is written in such a way that it will work only when both numbers and objects are drawn else
+it will give an error of undefined variables.
+
+
+The output of the classifiers will provide following information:
+1. The object or number you draw and in the order you draw. For example, in above output
+figures, we drew the Fixed-support first, then we drew spring and successively we drew
+Block, Damper, Roller-Support, 4,3,2.
+2. It will provide the location of each number if it is above the object or inside the object or
+below the object. In the example images provided, 4 is draw above the object, 3 is inside
+the block and 2 is below the damper. Thus the output can provide this information.
+3. Similarly, it will also provide the location of the objects in the order you draw them as can
+be seen in the outputs above.
+4. If we draw two numbers one above the other, it will misclassify as can be seen in the below
+images.
+
+Instruction to run the classifier:
+Open Ink.m in MATLAB and run
+Draw the mechanical system with its weights (refer report.pdf) for example
+Once done, press "Save" button
+Results of the classifier will be displayed on the command window
